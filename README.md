@@ -17,8 +17,9 @@ Installation Instructions:
 1. Copy "documents" folder content to desired location
 2. Change the "$str_document_library_directory_name" variable to match your installation directory (look in init.php)
 3. Setup your database variables (look in init.php)
-4. Grep "//---CUSTOMIZABLE/---" for additional customizable options
-5. Enjoy!
+4. Run the SQL located at "_protected-scripts/create-document-library.php" in order to initialize the database
+5. Grep "//---CUSTOMIZABLE/---" for additional customizable options
+6. Enjoy!
 
 For more information, please visit http://www.darintyler.com
 Send questions or comments to darintyler05@gmail.com
