@@ -1,0 +1,157 @@
+/**
+* The Document Library by Darin Tyler is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. 
+* You many remix, tweak, and build upon the Document Library, even for commercial purposes, as long as you credit Darin Tyler, include a link back to http://www.darintyler.com, and license your new creations under identical terms. 
+* To view a copy of the Creative Commons Attribution-ShareAlike 4.0 International License, visit http://creativecommons.org/licenses/by-sa/4.0/.
+*/
+
+body{
+  margin:0;
+  padding:0;
+  font-family:verdana,arial,tahoma;
+}
+h1{
+  margin:0 0 0.5em 0;
+  padding:0;
+}
+p,
+ul{
+  margin:0 0 1em 0;
+}
+ul{
+  padding:0 0 0 1em;
+  list-style-type:square;
+}
+li{
+  margin-bottom:0.2em;
+}
+table{
+  text-align:left;
+  width:100%;
+	margin:0px;
+	margin-bottom:1em;
+  border-spacing:0;
+  border-collapse:collapse;
+}
+th,
+td,
+caption{
+  vertical-align:top;
+  padding: 10px;
+  border: 1px solid #C8C8C8;
+  margin:0;
+}
+th{
+  font-weight:bold;
+}
+table.unstyled th,
+table.unstyled td{
+  padding:0;
+  border:0;
+}
+input[type=text],
+textarea{
+  width:400px;
+}
+.body-container{
+  margin:0 1em;
+}
+.page-header{
+  background:#005EA5;
+  color:white;
+  padding:20px;
+}
+.page-header a{
+  color:white;
+  text-decoration:none;
+}
+.page-header a:hover{
+  text-decoration:underline;
+}
+.page-header-divider{
+  font-size:0.7em;
+  position:relative;
+  top:-3px;
+}
+.page-header{
+  margin-bottom:20px;
+}
+a.button,
+input.button{
+  display:inline-block;
+  background:#496274;
+  color:white;
+  padding:10px;
+  margin-bottom:1em;
+  font-weight:bold;
+  font-size:0.8em;
+  border-radius:10px;
+  text-decoration:none;
+}
+a.button:hover,
+input.button:hover{
+  text-decoration:underline;
+  background:#B69D8B;
+  color:white;
+}
+input.button{
+  border:0;
+  cursor:pointer;
+}
+.message-container{
+  padding:10px;
+  background:#496274;
+  color:white;
+  border:#C8C8C8;
+  margin:1em;
+}
+.bold-text{
+  font-weight:bold;
+}
+.green-text{
+  color:green;
+}
+.red-text{
+  color:red;
+}
+.small-text{
+ font-size:0.8em;
+}
+.small-text-2{
+ font-size:0.7em;
+}
+.margin-top{
+  margin-top:10px;
+}
+.margin-bottom{
+  margin-bottom:10px;
+}
+.margin-left{
+  margin-left:10px;
+}
+.margin-right{
+  margin-right:10px;
+}
+.margin{
+  margin:10px;
+}
+.padding-top{
+  padding-top:10px;
+}
+.padding-bottom{
+  padding-bottom:10px;
+}
+.padding-left{
+  padding-left:10px;
+}
+.padding-right{
+  padding-right:10px;
+}
+.padding{
+  padding:10px;
+}
+.sort-order-link{
+  text-decoration:none;
+}
+.sort-order-link:hover{
+  text-decoration:underline;
+}
