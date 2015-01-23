@@ -1,6 +1,9 @@
+<?php /**
+  Run the following SQL to create the tables used by this application.
+*/ ?>
 <?php /*
 -- --------------------------------------------------------------------------
-CREATE TABLE `darintyl_database`.`docs_documents`(
+CREATE TABLE `docs_documents`(
   `int_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
   `str_username` VARCHAR(70) NOT NULL,
   `int_access_count` INTEGER UNSIGNED,
@@ -14,14 +17,14 @@ CREATE TABLE `darintyl_database`.`docs_documents`(
 )
 ENGINE = InnoDB;
 -- --------------------------------------------------------------------------
-CREATE TABLE `darintyl_database`.`docs_document_category_rels`(
+CREATE TABLE `docs_document_category_rels`(
   `int_document_id` INTEGER UNSIGNED NOT NULL,
   `int_category_id` INTEGER UNSIGNED NOT NULL,
   PRIMARY KEY (`int_document_id`,`int_category_id`)
 )
 ENGINE = InnoDB;
 -- --------------------------------------------------------------------------
-CREATE TABLE `darintyl_database`.`docs_categories`(
+CREATE TABLE `docs_categories`(
   `int_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
   `str_category` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`int_id`)
@@ -32,7 +35,7 @@ ENGINE = InnoDB;
 SET autocommit=0;
 START TRANSACTION;
 -- --------------------------------------------------------------------------
-INSERT INTO `darintyl_database`.`docs_categories`(
+INSERT INTO `docs_categories`(
   `str_category`
 ) 
 VALUES
