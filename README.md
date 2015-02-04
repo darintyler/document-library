@@ -14,7 +14,7 @@ You many remix, tweak, and build upon the Document Library, even for commercial 
 To view a copy of the Creative Commons Attribution-ShareAlike 4.0 International License, visit http://creativecommons.org/licenses/by-sa/4.0/.
 
 Installation Instructions:
-1. Copy "documents" folder content to desired location
+1. Copy "document-library" folder content to desired location
 2. Change the "$str_document_library_directory_name" variable to match your installation directory (look in init.php)
 3. Setup your database variables (look in init.php)
 4. Run the SQL located at "_protected-scripts/create-document-library.php" in order to initialize the database
