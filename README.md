@@ -4,14 +4,14 @@ About the Document Library:
 Thank you for downloading the Document Library by Darin Tyler.  
 This is a full-featured repository for online document storage. Search, upload, download, update, and delete documents. Supported file formats include Word, Excel, PDF, JPEG, and PNG. This application is sandboxed for each visitor, so any changes a visitor makes will only affect their documents.  
   
-Specifications:
-- Version 1.0
-- Designed for PHP version 5.4
+Specifications:  
+- Version 1.0  
+- Designed for PHP version 5.4  
   
-License:
-The Document Library by Darin Tyler is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.  
-You many remix, tweak, and build upon the Document Library, even for commercial purposes, as long as you credit Darin Tyler, include a link back to http://www.darintyler.com, and license your new creations under identical terms.  
-To view a copy of the Creative Commons Attribution-ShareAlike 4.0 International License, visit http://creativecommons.org/licenses/by-sa/4.0/.  
+License:  
+- The Document Library by Darin Tyler is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.  
+- You many remix, tweak, and build upon the Document Library, even for commercial purposes, as long as you credit Darin Tyler, include a link back to http://www.darintyler.com, and license your new creations under identical terms.  
+- To view a copy of the Creative Commons Attribution-ShareAlike 4.0 International License, visit http://creativecommons.org/licenses/by-sa/4.0/.  
   
 Installation Instructions:  
 1. Copy "document-library" folder content to desired location  
